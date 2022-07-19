@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 739eb220984f27f48857a8d5901189c9, type: 3}
+  m_Name: newspaper_get
+  m_EditorClassIdentifier: 
+  task_text: 
+  item_to_fullfill_task: {fileID: 11400000, guid: cc0318d4c86afd94a91add432d50f386, type: 2}
+  fullfilled_task_text: {fileID: 11400000, guid: 333de99e9a96c9c45b494ccc1bad0a10, type: 2}

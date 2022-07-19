@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9ecc2b904ec573479f09cb04bd61d24, type: 3}
+  m_Name: Test_npc
+  m_EditorClassIdentifier: 
+  interactionIcon: {fileID: 0}
+  dialog_with_npc: {fileID: 11400000, guid: 621c35b0c9e1c194ea68918e6f2334bc, type: 2}
+  default_response: {fileID: 11400000, guid: fc46fff4c25220c4ba0613f75b2647da, type: 2}

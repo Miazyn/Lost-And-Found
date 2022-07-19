@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5948848419069346647
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5948848419069346667}
+  - component: {fileID: 5948848419069346666}
+  - component: {fileID: 5948848419069346645}
+  - component: {fileID: 5948848419069346644}
+  - component: {fileID: 5948848419069346664}
+  - component: {fileID: 5948848419069346665}
+  m_Layer: 0
+  m_Name: Management
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5948848419069346667
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5948848419069346647}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 403.25723, y: 213.15913, z: -24.605675}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5948848419069346666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5948848419069346647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b8cf463a31a7604bb221b47e3b26770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pick_Up_Interactables_list: []
+  prefab_manager: {fileID: 3175608538048915948, guid: 377c95b0f6cffe04093b832a88485a06, type: 3}
+--- !u!114 &5948848419069346645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5948848419069346647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3228cce68457952479a8392182430943, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ui: {fileID: 5948848419069346644}
+  player: {fileID: 0}
+  player_inv: {fileID: 0}
+  current_text: {fileID: 0}
+  type_of_text: 
+  text_being_displayed: 0
+  counter: 0
+  selected_slot: 0
+  my_selected_item: {fileID: 0}
+  inventory_panel: {fileID: 0}
+  johan_default_no: {fileID: 11400000, guid: ec8a8099ddac3924d95dfc58a01f0a2e, type: 2}
+  move_scene: {fileID: 5948848419069346665}
+--- !u!114 &5948848419069346644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5948848419069346647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef5ae50f63b9be540a4b7032f8bb8267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCanvas: {fileID: 0}
+  interation_just_ended: 0
+  menu_panel: {fileID: 0}
+  ui_menu_open: 0
+  inventory_button: {fileID: 0}
+  inside_inventory: {fileID: 0}
+  is_open_inventory: 0
+  task1: {fileID: 0}
+  task2: {fileID: 0}
+  task3: {fileID: 0}
+  tasks_text: []
+  TextBox: {fileID: 0}
+  text_box_name: {fileID: 0}
+  text_field_npc: {fileID: 0}
+  text_field_inspect: {fileID: 0}
+  typing_speed: 0.01
+  npc_text: {fileID: 0}
+  inspect_text: {fileID: 0}
+  npc_name_text: {fileID: 0}
+  can_continue_text: 1
+--- !u!114 &5948848419069346664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5948848419069346647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e6644e4f2e69f84e9fff9cc8cc8f2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bunker_wake_up_done: 0
+--- !u!114 &5948848419069346665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5948848419069346647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c1865e0355ab724bbcae762033560bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player_reference: {fileID: 0}
+  prev_scene: 
